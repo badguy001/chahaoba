@@ -1,0 +1,60 @@
+2019-05-17 20:54:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.chahaoba.com/144> (referer: https://www.chahaoba.com/%E6%89%8B%E6%9C%BA%E5%BD%92%E5%B1%9E)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\meme\PycharmProjects\chahaoba\chahaoba\spiders\Chahaoba.py", line 39, in parse_threed
+    sf = every_sf.xpath('preceding-sibling::h3[1]//a/text()').extract()[0].replace(sjhd,'')
+IndexError: list index out of range
+2019-05-17 20:54:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.chahaoba.com/140> (referer: https://www.chahaoba.com/%E6%89%8B%E6%9C%BA%E5%BD%92%E5%B1%9E)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\meme\PycharmProjects\chahaoba\chahaoba\spiders\Chahaoba.py", line 39, in parse_threed
+    sf = every_sf.xpath('preceding-sibling::h3[1]//a/text()').extract()[0].replace(sjhd,'')
+IndexError: list index out of range
+2019-05-17 22:46:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.chahaoba.com/174> (referer: https://www.chahaoba.com/%E6%89%8B%E6%9C%BA%E5%BD%92%E5%B1%9E)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\meme\PycharmProjects\chahaoba\chahaoba\spiders\Chahaoba.py", line 39, in parse_threed
+    sf = every_sf.xpath('preceding-sibling::h3[1]//a/text()').extract()[0].replace(sjhd,'')
+IndexError: list index out of range
+2019-05-18 00:38:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.chahaoba.com/170> (referer: https://www.chahaoba.com/%E6%89%8B%E6%9C%BA%E5%BD%92%E5%B1%9E)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\meme\PycharmProjects\chahaoba\chahaoba\spiders\Chahaoba.py", line 39, in parse_threed
+    sf = every_sf.xpath('preceding-sibling::h3[1]//a/text()').extract()[0].replace(sjhd,'')
+IndexError: list index out of range
